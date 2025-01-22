@@ -1,0 +1,10 @@
+opencv-python
+pillow
+torch
+numpy
+transformers
+ipython
+ultralytics
+streamlit
+paddleocr
+paddlepaddle>=2.5.0
