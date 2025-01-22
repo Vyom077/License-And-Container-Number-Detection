@@ -1,6 +1,6 @@
 opencv-python==4.5.5.64
 pillow==9.5.0
-torch==2.0.1
+torch==2.2.1
 numpy==1.23.5
 transformers==4.30.2
 ipython==8.12.0
