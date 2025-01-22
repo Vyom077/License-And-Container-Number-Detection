@@ -128,17 +128,13 @@ class StreamlitUI:
     def setup_sidebar(self) -> Tuple[str, float, Optional[BytesIO]]:
         """Configure and return sidebar elements."""
         st.sidebar.title("🛠️ Settings")
-        
-        # Model selection with custom styling
-        #st.sidebar.markdown("### 📊 Model Selection")
+
         model_choice = st.sidebar.radio(
             "Select Detection Model",
             options=list(self.model_paths.keys()),
             help="Choose the type of detection to perform"
         )
         
-        # Advanced settings
-        #st.sidebar.markdown("### ⚙️ Advanced Settings")
         conf_threshold = st.sidebar.slider(
             "Confidence Threshold",
             min_value=0.0,
@@ -325,4 +321,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

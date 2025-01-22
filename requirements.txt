@@ -1,9 +1,5 @@
-opencv-python
 pillow
-torch
 numpy
-transformers
-ipython
 ultralytics
 streamlit
 paddleocr
