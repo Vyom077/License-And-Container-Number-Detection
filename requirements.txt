@@ -1,6 +1,8 @@
-pillow
-numpy
-ultralytics
-streamlit
-paddleocr
-paddlepaddle>=2.5.0
+streamlit==1.26.0
+numpy==1.24.3
+Pillow==10.0.0
+ultralytics==8.0.0
+paddleocr==2.6.1.3
+pandas==2.0.3
+torch==2.0.1
+opencv-python==4.7.0.72
